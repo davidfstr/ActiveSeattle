@@ -17,20 +17,66 @@
     "expanded": true,
     "cn": [
         {
-            "id": "ExtBox1-ext-gen30520",
-            "type": "map",
+            "id": "ExtBox1-ext-gen50164",
+            "type": "container",
             "reference": {
                 "name": "items",
                 "type": "array"
             },
             "codeClass": null,
             "userConfig": {
-                "height": 357,
-                "width": 318,
-                "designer|userClassName": "MyMap1"
+                "designer|userClassName": "MyContainer2"
             },
             "customConfigs": [],
-            "expanded": true
+            "expanded": true,
+            "cn": [
+                {
+                    "id": "ExtBox1-ext-gen51387",
+                    "type": "textfield",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "label": "Join a basketball game",
+                        "designer|userClassName": "MyTextField"
+                    },
+                    "customConfigs": [],
+                    "expanded": true
+                }
+            ]
+        },
+        {
+            "id": "ExtBox1-ext-gen50374",
+            "type": "container",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyContainer3"
+            },
+            "customConfigs": [],
+            "expanded": true,
+            "cn": [
+                {
+                    "id": "ExtBox1-ext-gen52535",
+                    "type": "map",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "height": 200,
+                        "designer|userClassName": "MyMap1"
+                    },
+                    "customConfigs": [],
+                    "expanded": true
+                }
+            ]
         }
     ]
 }

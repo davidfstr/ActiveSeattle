@@ -21,9 +21,22 @@ Ext.define('MyApp.view.page2', {
         id: 'two',
         items: [
             {
-                xtype: 'map',
-                height: 357,
-                width: 318
+                xtype: 'container',
+                items: [
+                    {
+                        xtype: 'textfield',
+                        label: 'Join a basketball game'
+                    }
+                ]
+            },
+            {
+                xtype: 'container',
+                items: [
+                    {
+                        xtype: 'map',
+                        height: 200
+                    }
+                ]
             }
         ]
     }
