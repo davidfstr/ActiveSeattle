@@ -45,7 +45,7 @@
             "codeClass": null,
             "userConfig": {
                 "fn": "onNavigationviewPainted",
-                "implHandler": "component.push({\r\n    xtype: 'splashpage',\r\n    title: \"\"\r\n});",
+                "implHandler": "component.push({\r\n    xtype: 'splashpage',\r\n    title: \"\"\r\n});\r\n\r\nvar splashpage = component.child('splashpage');\r\nvar map = splashpage.down('map');\r\n\r\nvar googleMap = map.getMap();\r\n\r\n// Center it in Seattle, baby.\r\nvar seattleLatLng = new google.maps.LatLng(47.600029,-122.319803);\r\ngoogleMap.setCenter(seattleLatLng);\r\n",
                 "name": "painted",
                 "designer|userClassName": "onNavigationviewPainted"
             },
