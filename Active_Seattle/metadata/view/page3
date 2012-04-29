@@ -10,7 +10,8 @@
         "cls": [
             "title"
         ],
-        "designer|userClassName": "CreateEventAtNewLocation7"
+        "designer|userClassName": "page3",
+        "designer|userAlias": "page3"
     },
     "customConfigs": [],
     "designerId": "55f12c61-b6b6-4776-9707-ac277c052556",

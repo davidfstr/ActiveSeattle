@@ -86,11 +86,11 @@
         },
         "55f12c61-b6b6-4776-9707-ac277c052556": {
             "paths": [
-                "metadata/view/CreateEventAtNewLocation7",
-                "app/view/override/CreateEventAtNewLocation7.js",
-                "app/view/CreateEventAtNewLocation7.js"
+                "metadata/view/page3",
+                "app/view/override/page3.js",
+                "app/view/page3.js"
             ],
-            "className": "CreateEventAtNewLocation7"
+            "className": "page3"
         },
         "ab2c01f2-b898-4d41-a810-57d8d7494482": {
             "paths": [

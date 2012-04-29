@@ -99,6 +99,7 @@
             "codeClass": null,
             "userConfig": {
                 "height": 37,
+                "itemId": "mycontainer18",
                 "width": 316,
                 "designer|userClassName": "MyContainer21"
             },
@@ -116,6 +117,7 @@
                     "userConfig": {
                         "centered": true,
                         "id": "start",
+                        "itemId": "foobutton",
                         "ui": "confirm-round",
                         "width": 280,
                         "text": "Start your own event",
@@ -214,7 +216,7 @@
                                 "id": "item2",
                                 "itemId": "textelement2",
                                 "width": 250,
-                                "label": "Pendleton-Mil.. 6:15pm, 10 people",
+                                "label": "Pendleton Mil.. 6:15pm, 10 people",
                                 "labelWidth": "100%",
                                 "designer|userClassName": "MyTextField15"
                             },

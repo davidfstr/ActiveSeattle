@@ -7,7 +7,8 @@
     },
     "codeClass": null,
     "userConfig": {
-        "designer|userClassName": "CreateEventAt5"
+        "designer|userClassName": "CreateEventAt5",
+        "designer|userAlias": "page3"
     },
     "customConfigs": [],
     "designerId": "32886467-8145-4a37-be3f-c976b75e8274",
@@ -40,7 +41,7 @@
                     },
                     "codeClass": null,
                     "userConfig": {
-                        "label": "Start a (game) game",
+                        "label": "Start a Basketball game",
                         "labelWidth": "100%",
                         "designer|userClassName": "MyTextField13"
                     },
@@ -96,7 +97,7 @@
                 "cls": [
                     "submitForm"
                 ],
-                "title": "(location)",
+                "title": "Pendleton Miller Playfield",
                 "designer|userClassName": "MyFieldSet"
             },
             "customConfigs": [],
