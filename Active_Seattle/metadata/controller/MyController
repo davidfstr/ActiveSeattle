@@ -43,7 +43,7 @@
             "codeClass": null,
             "userConfig": {
                 "fn": "onButtonTap",
-                "implHandler": "var mainNav = button.up('navigationview');\r\n\r\nmainNav.push({\r\n    xtype: 'page3',\r\n    title: \"\"\r\n});\r\n",
+                "implHandler": "var mainNav = button.up('navigationview');\r\n\r\nmainNav.push({\r\n    xtype: 'page3',\r\n    title: \"\"\r\n});\r\n\r\nvar page3 = mainNav.child('page3');\r\nvar map = page3.down('map');\r\n\r\nvar googleMap = map.getMap();\r\n\r\n// Center it in Seattle, baby.\r\nvar lat = 47.622067;\r\nvar long = -122.306615;\r\nvar seattleLatLng = new google.maps.LatLng(lat, long);\r\ngoogleMap.setCenter(seattleLatLng);\r\n\r\n\r\nvar marker = new google.maps.Marker({\r\n    map: googleMap,\r\n    position: new google.maps.LatLng(lat, long),\r\n    title: 'Pendleton Miller Playfield'\r\n});\r\n\r\nmarker.setIcon('http://www.google.com/intl/en_us/mapfiles/ms/icons/green-dot.png');",
                 "name": "tap",
                 "designer|targetType": "Ext.Button",
                 "designer|controlQuery": "page2 #foobutton",
