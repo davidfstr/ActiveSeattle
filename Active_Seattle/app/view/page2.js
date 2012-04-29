@@ -21,22 +21,6 @@ Ext.define('MyApp.view.page2', {
         id: 'two',
         items: [
             {
-                xtype: 'titlebar',
-                docked: 'top',
-                title: 'Lets Play Now',
-                items: [
-                    {
-                        xtype: 'button',
-                        handler: function(button, event) {
-    
-                        },
-                        itemId: 'mybutton',
-                        ui: 'back',
-                        text: 'back'
-                    }
-                ]
-            },
-            {
                 xtype: 'map',
                 height: 357,
                 width: 318

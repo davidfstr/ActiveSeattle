@@ -27,7 +27,7 @@ Ext.define('MyApp.controller.MyController', {
 
         selectfield.up('navigationview').push({
             xtype: 'page2',
-            title: 'Page 2'
+            title: "Let's Play Now"
         });
     }
 

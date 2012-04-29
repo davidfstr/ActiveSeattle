@@ -8,7 +8,6 @@
     "codeClass": null,
     "userConfig": {
         "designer|initialView": true,
-        "useTitleForBackButtonText": true,
         "designer|userClassName": "MyNavigationView"
     },
     "customConfigs": [],
@@ -16,20 +15,6 @@
     "$viewOrder": 2,
     "expanded": true,
     "cn": [
-        {
-            "id": "ExtBox1-ext-gen33244",
-            "type": "linkedinstance",
-            "reference": {
-                "name": "items",
-                "type": "array"
-            },
-            "codeClass": null,
-            "userConfig": {},
-            "customConfigs": [],
-            "iconCls": "icon-linkedinstance",
-            "expanded": true,
-            "masterInstanceId": "ExtBox1-ext-gen2831"
-        },
         {
             "id": "ExtBox1-ext-gen38480",
             "type": "navigationbar",
@@ -39,12 +24,32 @@
             },
             "codeClass": null,
             "userConfig": {
+                "border": "",
+                "itemId": "mynavigationbar",
+                "tpl": null,
                 "ui": "light",
                 "designer|userClassName": "MyNavigationBar",
-                "title": "Foo Title"
+                "title": "MyNavBar"
             },
             "customConfigs": [],
             "iconCls": "icon-navbar",
+            "expanded": true
+        },
+        {
+            "id": "ExtBox1-ext-gen46987",
+            "type": "basiceventbinding",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "onNavigationviewPainted",
+                "implHandler": "component.push({\r\n        xtype: 'splashpage',\r\n        title: \"Let's Play Now\"\r\n    });",
+                "name": "painted",
+                "designer|userClassName": "onNavigationviewPainted"
+            },
+            "customConfigs": [],
             "expanded": true
         }
     ]

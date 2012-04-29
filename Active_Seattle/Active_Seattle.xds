@@ -22,11 +22,11 @@
     "topInstanceFileMap": {
         "50700456-313b-421a-835a-0bdd3754806c": {
             "paths": [
-                "metadata/view/First_page",
-                "app/view/override/First_page.js",
-                "app/view/First_page.js"
+                "metadata/view/SplashPage",
+                "app/view/override/SplashPage.js",
+                "app/view/SplashPage.js"
             ],
-            "className": "First_page"
+            "className": "SplashPage"
         },
         "54e30c90-dfc9-4f52-8c72-b69c53cb6050": {
             "paths": [

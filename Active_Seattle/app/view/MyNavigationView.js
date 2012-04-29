@@ -15,21 +15,27 @@
 
 Ext.define('MyApp.view.MyNavigationView', {
     extend: 'Ext.navigation.View',
-    requires: [
-        'MyApp.view.First_page'
-    ],
 
     config: {
-        useTitleForBackButtonText: true,
-        items: [
-            {
-                xtype: 'first_page'
-            }
-        ],
         navigationBar: {
+            border: '',
+            itemId: 'mynavigationbar',
             ui: 'light',
-            title: 'Foo Title'
-        }
+            title: 'MyNavBar'
+        },
+        listeners: [
+            {
+                fn: 'onNavigationviewPainted',
+                event: 'painted'
+            }
+        ]
+    },
+
+    onNavigationviewPainted: function(component, options) {
+        component.push({
+            xtype: 'splashpage',
+            title: "Let's Play Now"
+        });
     }
 
 });

@@ -17,64 +17,6 @@
     "expanded": true,
     "cn": [
         {
-            "id": "ExtBox1-ext-gen7648",
-            "type": "titlebar",
-            "reference": {
-                "name": "items",
-                "type": "array"
-            },
-            "codeClass": null,
-            "userConfig": {
-                "docked": "top",
-                "title": "Lets Play Now",
-                "designer|userClassName": "MyTitleBar"
-            },
-            "customConfigs": [],
-            "expanded": true,
-            "cn": [
-                {
-                    "id": "ExtBox1-ext-gen7652",
-                    "type": "button",
-                    "reference": {
-                        "name": "items",
-                        "type": "array"
-                    },
-                    "codeClass": null,
-                    "userConfig": {
-                        "itemId": "mybutton",
-                        "ui": "back",
-                        "text": "back",
-                        "designer|userClassName": "MyButton"
-                    },
-                    "customConfigs": [],
-                    "expanded": true,
-                    "cn": [
-                        {
-                            "id": "ExtBox1-ext-gen7658",
-                            "type": "fixedfunction",
-                            "reference": {
-                                "name": "items",
-                                "type": "array"
-                            },
-                            "codeClass": null,
-                            "userConfig": {
-                                "fn": "handler",
-                                "designer|params": [
-                                    "button",
-                                    "event"
-                                ],
-                                "implHandler": "    ",
-                                "designer|userClassName": "handler"
-                            },
-                            "customConfigs": [],
-                            "iconCls": "icon-basic-function",
-                            "expanded": true
-                        }
-                    ]
-                }
-            ]
-        },
-        {
             "id": "ExtBox1-ext-gen30520",
             "type": "map",
             "reference": {

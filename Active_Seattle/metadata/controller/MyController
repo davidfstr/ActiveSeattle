@@ -24,7 +24,7 @@
             "codeClass": null,
             "userConfig": {
                 "fn": "onFirstPageSelectfieldChange",
-                "implHandler": "\r\n    selectfield.up('navigationview').push({\r\n        xtype: 'page2',\r\n        title: 'Page 2'\r\n    });",
+                "implHandler": "\r\n    selectfield.up('navigationview').push({\r\n        xtype: 'page2',\r\n        title: \"Let's Play Now\"\r\n    });",
                 "name": "change",
                 "designer|targetType": "Ext.field.Select",
                 "designer|controlQuery": "selectfield",

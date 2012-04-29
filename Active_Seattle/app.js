@@ -19,7 +19,7 @@ Ext.Loader.setConfig({
 
 Ext.application({
     views: [
-        'First_page',
+        'SplashPage',
         'page2',
         'MyNavigationView'
     ],
