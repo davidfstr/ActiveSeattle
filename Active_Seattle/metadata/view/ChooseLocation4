@@ -1,5 +1,5 @@
 {
-    "id": "ExtBox1-ext-gen14577",
+    "id": "ExtBox1-ext-gen13878",
     "type": "panel",
     "reference": {
         "name": "items",
@@ -8,16 +8,15 @@
     "codeClass": null,
     "userConfig": {
         "id": "two",
-        "designer|userClassName": "page2",
-        "designer|userAlias": "page2"
+        "designer|userClassName": "ChooseLocation4"
     },
     "customConfigs": [],
-    "designerId": "e6cbcd5d-9e94-413a-8f8c-b66f9e32a833",
-    "$viewOrder": 1,
+    "designerId": "219b1382-c93c-4382-a535-412e5712cdd7",
+    "$viewOrder": 3,
     "expanded": false,
     "cn": [
         {
-            "id": "ExtBox1-ext-gen14581",
+            "id": "ExtBox1-ext-gen13882",
             "type": "container",
             "reference": {
                 "name": "items",
@@ -31,7 +30,7 @@
             "expanded": true,
             "cn": [
                 {
-                    "id": "ExtBox1-ext-gen14585",
+                    "id": "ExtBox1-ext-gen13886",
                     "type": "textfield",
                     "reference": {
                         "name": "items",
@@ -49,7 +48,7 @@
             ]
         },
         {
-            "id": "ExtBox1-ext-gen14589",
+            "id": "ExtBox1-ext-gen13890",
             "type": "container",
             "reference": {
                 "name": "items",
@@ -63,7 +62,7 @@
             "expanded": true,
             "cn": [
                 {
-                    "id": "ExtBox1-ext-gen14593",
+                    "id": "ExtBox1-ext-gen13894",
                     "type": "map",
                     "reference": {
                         "name": "items",
@@ -77,26 +76,28 @@
                     },
                     "customConfigs": [],
                     "expanded": true
-                },
-                {
-                    "id": "ExtBox1-ext-gen14597",
-                    "type": "button",
-                    "reference": {
-                        "name": "items",
-                        "type": "array"
-                    },
-                    "codeClass": null,
-                    "userConfig": {
-                        "text": "Start your own event",
-                        "designer|userClassName": "MyButton6"
-                    },
-                    "customConfigs": [],
-                    "expanded": true
                 }
             ]
         },
         {
-            "id": "ExtBox1-ext-gen14601",
+            "id": "ExtBox1-ext-gen15965",
+            "type": "textfield",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "label": null,
+                "labelWidth": 0,
+                "placeHolder": "Enter your own location",
+                "designer|userClassName": "MyTextField6"
+            },
+            "customConfigs": [],
+            "expanded": true
+        },
+        {
+            "id": "ExtBox1-ext-gen13902",
             "type": "container",
             "reference": {
                 "name": "items",
@@ -110,7 +111,7 @@
             "expanded": true,
             "cn": [
                 {
-                    "id": "ExtBox1-ext-gen14605",
+                    "id": "ExtBox1-ext-gen13906",
                     "type": "container",
                     "reference": {
                         "name": "items",
@@ -128,7 +129,7 @@
                     "expanded": true,
                     "cn": [
                         {
-                            "id": "ExtBox1-ext-gen14609",
+                            "id": "ExtBox1-ext-gen13910",
                             "type": "button",
                             "reference": {
                                 "name": "items",
@@ -138,7 +139,7 @@
                             "userConfig": {
                                 "centered": true,
                                 "width": 270,
-                                "text": "(location), (time), (#people)",
+                                "text": "(location) ((distance))",
                                 "designer|userClassName": "MyButton7"
                             },
                             "customConfigs": [],
@@ -147,7 +148,7 @@
                     ]
                 },
                 {
-                    "id": "ExtBox1-ext-gen14613",
+                    "id": "ExtBox1-ext-gen13914",
                     "type": "container",
                     "reference": {
                         "name": "items",
@@ -163,7 +164,7 @@
                     "expanded": true,
                     "cn": [
                         {
-                            "id": "ExtBox1-ext-gen14617",
+                            "id": "ExtBox1-ext-gen13918",
                             "type": "button",
                             "reference": {
                                 "name": "items",
@@ -174,7 +175,7 @@
                                 "centered": true,
                                 "height": 36,
                                 "width": 270,
-                                "text": "(location), (time), (#people)",
+                                "text": "(location) ((distance))",
                                 "designer|userClassName": "MyButton7"
                             },
                             "customConfigs": [],

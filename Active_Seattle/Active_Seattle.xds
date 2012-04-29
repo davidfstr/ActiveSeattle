@@ -28,14 +28,6 @@
             ],
             "className": "SplashPage"
         },
-        "54e30c90-dfc9-4f52-8c72-b69c53cb6050": {
-            "paths": [
-                "metadata/view/page2",
-                "app/view/override/page2.js",
-                "app/view/page2.js"
-            ],
-            "className": "page2"
-        },
         "3bb10e2e-670f-42fa-ad9e-7c8c7371d7a7": {
             "paths": [
                 "metadata/controller/MyController",
@@ -51,13 +43,77 @@
                 "app/view/MyNavigationView.js"
             ],
             "className": "MyNavigationView"
+        },
+        "63e5db62-e31f-42e4-a491-e77a5d9e43cc": {
+            "paths": [
+                "metadata/view/ShareJoined9",
+                "app/view/override/ShareJoined9.js",
+                "app/view/ShareJoined9.js"
+            ],
+            "className": "ShareJoined9"
+        },
+        "b3ac89d5-28b5-4692-8d0c-cbfdc80cbf20": {
+            "paths": [
+                "metadata/view/SelectEvent3",
+                "app/view/override/SelectEvent3.js",
+                "app/view/SelectEvent3.js"
+            ],
+            "className": "SelectEvent3"
+        },
+        "4b84515d-6639-45a8-9da7-7048cfc2295a": {
+            "paths": [
+                "metadata/view/ShareCreated6",
+                "app/view/override/ShareCreated6.js",
+                "app/view/ShareCreated6.js"
+            ],
+            "className": "ShareCreated6"
+        },
+        "219b1382-c93c-4382-a535-412e5712cdd7": {
+            "paths": [
+                "metadata/view/ChooseLocation4",
+                "app/view/override/ChooseLocation4.js",
+                "app/view/ChooseLocation4.js"
+            ],
+            "className": "ChooseLocation4"
+        },
+        "e6cbcd5d-9e94-413a-8f8c-b66f9e32a833": {
+            "paths": [
+                "metadata/view/page2",
+                "app/view/override/page2.js",
+                "app/view/page2.js"
+            ],
+            "className": "page2"
+        },
+        "55f12c61-b6b6-4776-9707-ac277c052556": {
+            "paths": [
+                "metadata/view/CreateEventAtNewLocation7",
+                "app/view/override/CreateEventAtNewLocation7.js",
+                "app/view/CreateEventAtNewLocation7.js"
+            ],
+            "className": "CreateEventAtNewLocation7"
+        },
+        "ab2c01f2-b898-4d41-a810-57d8d7494482": {
+            "paths": [
+                "metadata/view/JoinSelectedGame8",
+                "app/view/override/JoinSelectedGame8.js",
+                "app/view/JoinSelectedGame8.js"
+            ],
+            "className": "JoinSelectedGame8"
+        },
+        "32886467-8145-4a37-be3f-c976b75e8274": {
+            "paths": [
+                "metadata/view/CreateEventAt5",
+                "app/view/override/CreateEventAt5.js",
+                "app/view/CreateEventAt5.js"
+            ],
+            "className": "CreateEventAt5"
         }
     },
     "expandedState": {
         "data": true,
         "model": true,
         "component": true,
-        "controller": true,
+        "controller": false,
         "resource": true
     }
 }

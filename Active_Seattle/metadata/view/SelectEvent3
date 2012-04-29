@@ -1,5 +1,5 @@
 {
-    "id": "ExtBox1-ext-gen14577",
+    "id": "ExtBox1-ext-gen10040",
     "type": "panel",
     "reference": {
         "name": "items",
@@ -8,16 +8,15 @@
     "codeClass": null,
     "userConfig": {
         "id": "two",
-        "designer|userClassName": "page2",
-        "designer|userAlias": "page2"
+        "designer|userClassName": "SelectEvent3"
     },
     "customConfigs": [],
-    "designerId": "e6cbcd5d-9e94-413a-8f8c-b66f9e32a833",
-    "$viewOrder": 1,
+    "designerId": "b3ac89d5-28b5-4692-8d0c-cbfdc80cbf20",
+    "$viewOrder": 2,
     "expanded": false,
     "cn": [
         {
-            "id": "ExtBox1-ext-gen14581",
+            "id": "ExtBox1-ext-gen10044",
             "type": "container",
             "reference": {
                 "name": "items",
@@ -31,7 +30,7 @@
             "expanded": true,
             "cn": [
                 {
-                    "id": "ExtBox1-ext-gen14585",
+                    "id": "ExtBox1-ext-gen10048",
                     "type": "textfield",
                     "reference": {
                         "name": "items",
@@ -49,7 +48,7 @@
             ]
         },
         {
-            "id": "ExtBox1-ext-gen14589",
+            "id": "ExtBox1-ext-gen10052",
             "type": "container",
             "reference": {
                 "name": "items",
@@ -63,7 +62,7 @@
             "expanded": true,
             "cn": [
                 {
-                    "id": "ExtBox1-ext-gen14593",
+                    "id": "ExtBox1-ext-gen10056",
                     "type": "map",
                     "reference": {
                         "name": "items",
@@ -79,7 +78,7 @@
                     "expanded": true
                 },
                 {
-                    "id": "ExtBox1-ext-gen14597",
+                    "id": "ExtBox1-ext-gen10060",
                     "type": "button",
                     "reference": {
                         "name": "items",
@@ -96,7 +95,7 @@
             ]
         },
         {
-            "id": "ExtBox1-ext-gen14601",
+            "id": "ExtBox1-ext-gen11637",
             "type": "container",
             "reference": {
                 "name": "items",
@@ -110,7 +109,7 @@
             "expanded": true,
             "cn": [
                 {
-                    "id": "ExtBox1-ext-gen14605",
+                    "id": "ExtBox1-ext-gen10068",
                     "type": "container",
                     "reference": {
                         "name": "items",
@@ -128,7 +127,7 @@
                     "expanded": true,
                     "cn": [
                         {
-                            "id": "ExtBox1-ext-gen14609",
+                            "id": "ExtBox1-ext-gen10072",
                             "type": "button",
                             "reference": {
                                 "name": "items",
@@ -147,7 +146,7 @@
                     ]
                 },
                 {
-                    "id": "ExtBox1-ext-gen14613",
+                    "id": "ExtBox1-ext-gen10076",
                     "type": "container",
                     "reference": {
                         "name": "items",
@@ -163,7 +162,7 @@
                     "expanded": true,
                     "cn": [
                         {
-                            "id": "ExtBox1-ext-gen14617",
+                            "id": "ExtBox1-ext-gen10080",
                             "type": "button",
                             "reference": {
                                 "name": "items",

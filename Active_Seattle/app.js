@@ -20,8 +20,15 @@ Ext.Loader.setConfig({
 Ext.application({
     views: [
         'SplashPage',
+        'MyNavigationView',
+        'ShareJoined9',
+        'ShareCreated6',
+        'SelectEvent3',
+        'ChooseLocation4',
         'page2',
-        'MyNavigationView'
+        'CreateEventAtNewLocation7',
+        'JoinSelectedGame8',
+        'CreateEventAt5'
     ],
     name: 'MyApp',
     controllers: [

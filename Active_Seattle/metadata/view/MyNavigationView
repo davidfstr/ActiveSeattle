@@ -12,8 +12,8 @@
     },
     "customConfigs": [],
     "designerId": "4496ba43-5c06-423a-8ba2-66b1de80a209",
-    "$viewOrder": 2,
-    "expanded": true,
+    "$viewOrder": 9,
+    "expanded": false,
     "cn": [
         {
             "id": "ExtBox1-ext-gen38480",
@@ -45,7 +45,7 @@
             "codeClass": null,
             "userConfig": {
                 "fn": "onNavigationviewPainted",
-                "implHandler": "component.push({\r\n        xtype: 'splashpage',\r\n        title: \"Let's Play Now\"\r\n    });",
+                "implHandler": "component.push({\r\n    xtype: 'splashpage',\r\n    title: \"Let's Play Now\"\r\n});",
                 "name": "painted",
                 "designer|userClassName": "onNavigationviewPainted"
             },

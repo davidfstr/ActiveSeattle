@@ -58,6 +58,7 @@ Ext.define('MyApp.view.SplashPage', {
                     {
                         xtype: 'map',
                         height: 356,
+                        ui: 'light',
                         width: 313
                     }
                 ]
