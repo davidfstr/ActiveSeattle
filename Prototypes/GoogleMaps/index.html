@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+    <style type="text/css">
+      html { height: 100% }
+      body { height: 100%; margin: 0; padding: 0 }
+      #map_canvas { height: 100% }
+    </style>
+    <script type="text/javascript"
+      src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js">
+    </script>
+    <script type="text/javascript"
+      src="http://maps.googleapis.com/maps/api/js?key=AIzaSyD-zX43UbE8fH9IiAkpWRYzVr5zNAvUZcQ&sensor=true">
+    </script>
+    <script type="text/javascript"
+      src="lpn.util.array.js">
+    </script>
+    <script type="text/javascript">
+      // Application namespace
+      LPN = {}
+      
+      function initialize() {
+        var mapContainer = document.getElementById("map_canvas");
+        LPN.map = new google.maps.Map(mapContainer, {
+          // Near Ravenna Park
+          center: new google.maps.LatLng(47.670, -122.308),
+          zoom: 15,
+          mapTypeId: google.maps.MapTypeId.ROADMAP
+        });
+        
+        // Fetch {Basketball Courts
+        $.ajax("https://data.seattle.gov/resource/82su-5fxf.json?$where=city_feature='Basketball%20Courts'%20OR%20city_feature='Tennis%20Courts'&$select=city_feature,common_name,latitude,longitude", {
+          dataType: "json",
+          success: function(data, textStatus, jqXHR) {
+            facilitiesLoaded(data);
+          },
+          error: function(jqXHR, textStatus, errorThrown) {
+            alert("Unable to access facilities.");
+          }
+        });
+      }
+      
+      /**
+       * @param facilities {Object}     array of {city_feature, common_name, longitude, latitude}.
+       */
+      function facilitiesLoaded(facilities) {
+        each(facilities, function(f) {
+          new google.maps.Marker({
+            map: LPN.map,
+            position: new google.maps.LatLng(f.latitude, f.longitude),
+            title: f.common_name
+          });
+        });
+      }
+    </script>
+  </head>
+  <body onload="initialize()">
+    <div id="map_canvas" style="width:100%; height:100%"></div>
+  </body>
+</html>
