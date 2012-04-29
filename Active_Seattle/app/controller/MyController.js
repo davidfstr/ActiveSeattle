@@ -80,19 +80,29 @@ Ext.define('MyApp.controller.MyController', {
                         var lat = f[13];
 
 
-                        new google.maps.Marker({
+                        var marker = new google.maps.Marker({
                             map: googleMap,
                             position: new google.maps.LatLng(lat, long),
                             title: commonName
                         });
-                    }
-                });
-            },
-            failure: function (result, request)
-            {
-                alert('fail');
-            }
-        });
+
+                        // TODO: There is some bug - uncaught exception when closing the InfoWindow.  WTF.
+
+                        google.maps.event.addListener(marker, 'click', function() {
+                            // add click event listener for the marker
+                            var infoWindow = new google.maps.InfoWindow({
+                                content: 'foo'
+                            });
+
+                            infoWindow.open(map, marker);
+                        });
+                    });
+                },
+                failure: function (result, request)
+                {
+                    alert('fail');
+                }
+            });
 
     }
 
