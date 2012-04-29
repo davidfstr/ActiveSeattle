@@ -39,7 +39,10 @@
                     },
                     "codeClass": null,
                     "userConfig": {
-                        "label": "Join a basketball game",
+                        "itemId": "mytextfield",
+                        "label": "alala",
+                        "name": null,
+                        "readOnly": null,
                         "designer|userClassName": "MyTextField"
                     },
                     "customConfigs": [],

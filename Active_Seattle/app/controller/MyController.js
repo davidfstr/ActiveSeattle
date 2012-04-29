@@ -25,10 +25,19 @@ Ext.define('MyApp.controller.MyController', {
 
     onFirstPageSelectfieldChange: function(selectfield, newValue, oldValue, options) {
 
-        selectfield.up('navigationview').push({
+        var mainNav = selectfield.up('navigationview');
+        mainNav.push({
             xtype: 'page2',
             title: "Let's Play Now"
         });
+
+        var page2 = mainNav.child('page2');
+
+        var textfield = page2.down('#mytextfield');
+        var str = 'Join a ' + newValue.data.text + ' game';
+        textfield.setLabel(str);
+
+
     }
 
 });

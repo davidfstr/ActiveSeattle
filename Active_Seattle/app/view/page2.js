@@ -25,7 +25,8 @@ Ext.define('MyApp.view.page2', {
                 items: [
                     {
                         xtype: 'textfield',
-                        label: 'Join a basketball game'
+                        itemId: 'mytextfield',
+                        label: 'alala'
                     }
                 ]
             },
