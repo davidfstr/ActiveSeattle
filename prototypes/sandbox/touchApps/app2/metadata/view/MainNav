@@ -8,7 +8,8 @@
     "codeClass": null,
     "userConfig": {
         "designer|initialView": true,
-        "designer|userClassName": "MainNav"
+        "designer|userClassName": "MainNav",
+        "designer|userAlias": null
     },
     "customConfigs": [],
     "designerId": "b607aa9b-5c26-4ecd-b812-285a80b59f06",

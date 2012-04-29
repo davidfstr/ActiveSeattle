@@ -1,0 +1,49 @@
+{
+    "id": "ExtBox1-ext-gen21673",
+    "type": "panel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|initialView": true,
+        "designer|userClassName": "MyPanel"
+    },
+    "customConfigs": [],
+    "designerId": "9983a7e2-8457-4c69-8827-8d15e22ebee4",
+    "$viewOrder": 0,
+    "expanded": true,
+    "cn": [
+        {
+            "id": "ExtBox1-ext-gen23409",
+            "type": "textfield",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "label": "My",
+                "designer|userClassName": "MyTextField"
+            },
+            "customConfigs": [],
+            "expanded": true
+        },
+        {
+            "id": "ExtBox1-ext-gen23200",
+            "type": "button",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "text": "MyButton1",
+                "designer|userClassName": "MyButton1"
+            },
+            "customConfigs": [],
+            "expanded": true
+        }
+    ]
+}
