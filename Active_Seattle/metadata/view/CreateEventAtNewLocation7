@@ -7,6 +7,9 @@
     },
     "codeClass": null,
     "userConfig": {
+        "cls": [
+            "title"
+        ],
         "designer|userClassName": "CreateEventAtNewLocation7"
     },
     "customConfigs": [],
@@ -31,19 +34,38 @@
             "expanded": true
         },
         {
-            "id": "ExtBox1-ext-gen17861",
-            "type": "map",
+            "id": "ExtBox1-ext-gen15904",
+            "type": "container",
             "reference": {
                 "name": "items",
                 "type": "array"
             },
             "codeClass": null,
             "userConfig": {
-                "height": 200,
-                "designer|userClassName": "MyMap2"
+                "cls": [
+                    "map"
+                ],
+                "designer|userClassName": "MyContainer18"
             },
             "customConfigs": [],
-            "expanded": true
+            "expanded": true,
+            "cn": [
+                {
+                    "id": "ExtBox1-ext-gen17861",
+                    "type": "map",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "height": 200,
+                        "designer|userClassName": "MyMap2"
+                    },
+                    "customConfigs": [],
+                    "expanded": true
+                }
+            ]
         },
         {
             "id": "ExtBox1-ext-gen18655",
@@ -54,6 +76,9 @@
             },
             "codeClass": null,
             "userConfig": {
+                "cls": [
+                    "submitForm"
+                ],
                 "title": "(location)",
                 "designer|userClassName": "MyFieldSet"
             },

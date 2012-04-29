@@ -7,6 +7,9 @@
     },
     "codeClass": null,
     "userConfig": {
+        "cls": [
+            "title"
+        ],
         "designer|userClassName": "ShareJoined9"
     },
     "customConfigs": [],

@@ -21,6 +21,9 @@ Ext.define('MyApp.view.ChooseLocation4', {
         items: [
             {
                 xtype: 'container',
+                cls: [
+                    'title'
+                ],
                 items: [
                     {
                         xtype: 'textfield',
@@ -31,6 +34,9 @@ Ext.define('MyApp.view.ChooseLocation4', {
             },
             {
                 xtype: 'container',
+                cls: [
+                    'map'
+                ],
                 items: [
                     {
                         xtype: 'map',

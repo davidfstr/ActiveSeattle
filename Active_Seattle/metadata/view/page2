@@ -25,6 +25,9 @@
             },
             "codeClass": null,
             "userConfig": {
+                "cls": [
+                    "title"
+                ],
                 "designer|userClassName": "MyContainer2"
             },
             "customConfigs": [],
@@ -39,8 +42,11 @@
                     },
                     "codeClass": null,
                     "userConfig": {
-                        "label": "Join a basketball game",
+                        "itemId": "mytextfield",
+                        "label": "alala",
                         "labelWidth": "100%",
+                        "name": null,
+                        "readOnly": null,
                         "designer|userClassName": "MyTextField"
                     },
                     "customConfigs": [],
@@ -57,6 +63,9 @@
             },
             "codeClass": null,
             "userConfig": {
+                "cls": [
+                    "map"
+                ],
                 "designer|userClassName": "MyContainer3"
             },
             "customConfigs": [],
@@ -77,23 +86,23 @@
                     },
                     "customConfigs": [],
                     "expanded": true
-                },
-                {
-                    "id": "ExtBox1-ext-gen14597",
-                    "type": "button",
-                    "reference": {
-                        "name": "items",
-                        "type": "array"
-                    },
-                    "codeClass": null,
-                    "userConfig": {
-                        "text": "Start your own event",
-                        "designer|userClassName": "MyButton6"
-                    },
-                    "customConfigs": [],
-                    "expanded": true
                 }
             ]
+        },
+        {
+            "id": "ExtBox1-ext-gen14597",
+            "type": "button",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "text": "Start your own event",
+                "designer|userClassName": "MyButton6"
+            },
+            "customConfigs": [],
+            "expanded": true
         },
         {
             "id": "ExtBox1-ext-gen14601",

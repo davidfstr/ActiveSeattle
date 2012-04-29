@@ -20,6 +20,9 @@ Ext.define('MyApp.view.ShareCreated6', {
         items: [
             {
                 xtype: 'textfield',
+                cls: [
+                    'title'
+                ],
                 label: 'Join',
                 labelWidth: '100%',
                 readOnly: true

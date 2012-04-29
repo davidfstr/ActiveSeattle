@@ -23,6 +23,9 @@
             },
             "codeClass": null,
             "userConfig": {
+                "cls": [
+                    "title"
+                ],
                 "label": "Join",
                 "labelWidth": "100%",
                 "readOnly": true,

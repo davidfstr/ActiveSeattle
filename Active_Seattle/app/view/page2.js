@@ -22,27 +22,34 @@ Ext.define('MyApp.view.page2', {
         items: [
             {
                 xtype: 'container',
+                cls: [
+                    'title'
+                ],
                 items: [
                     {
                         xtype: 'textfield',
-                        label: 'Join a basketball game',
+                        itemId: 'mytextfield',
+                        label: 'alala',
                         labelWidth: '100%'
                     }
                 ]
             },
             {
                 xtype: 'container',
+                cls: [
+                    'map'
+                ],
                 items: [
                     {
                         xtype: 'map',
                         height: 250,
                         width: 317
-                    },
-                    {
-                        xtype: 'button',
-                        text: 'Start your own event'
                     }
                 ]
+            },
+            {
+                xtype: 'button',
+                text: 'Start your own event'
             },
             {
                 xtype: 'container',

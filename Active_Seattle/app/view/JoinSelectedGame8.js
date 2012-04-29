@@ -20,16 +20,30 @@ Ext.define('MyApp.view.JoinSelectedGame8', {
         items: [
             {
                 xtype: 'textfield',
+                cls: [
+                    'title'
+                ],
                 label: 'Start a (game) game',
                 labelWidth: '100%'
             },
             {
-                xtype: 'map',
-                height: 336,
-                width: 320
+                xtype: 'container',
+                cls: [
+                    'map'
+                ],
+                items: [
+                    {
+                        xtype: 'map',
+                        height: 336,
+                        width: 320
+                    }
+                ]
             },
             {
                 xtype: 'fieldset',
+                cls: [
+                    'submitForm'
+                ],
                 title: '(location)',
                 items: [
                     {

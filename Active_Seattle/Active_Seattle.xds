@@ -5,7 +5,7 @@
         "directAPI": "",
         "spacesToIndent": 4,
         "codeGenFormat": "Class",
-        "exportPath": "C:/Users/Villars/ActiveSeattle/Active_Seattle",
+        "exportPath": "C:/Users/Villars/ActiveSeattle/xampp",
         "extPath": "http://extjs.cachefly.net/touch/sencha-touch-2.0.0/",
         "senchaIoKey": "",
         "senchaIoPath": "http://extjs.cachefly.net/designer/IO/",
@@ -107,13 +107,19 @@
                 "app/view/CreateEventAt5.js"
             ],
             "className": "CreateEventAt5"
+        },
+        "6ab13d42-4ebe-4f7f-bfef-987048ce74a9": {
+            "paths": [
+                "metadata/resource/css"
+            ],
+            "className": "css"
         }
     },
     "expandedState": {
         "data": true,
         "model": true,
-        "component": true,
-        "controller": false,
+        "component": false,
+        "controller": true,
         "resource": true
     }
 }

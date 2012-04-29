@@ -15,36 +15,75 @@
     "expanded": false,
     "cn": [
         {
-            "id": "ExtBox1-ext-gen20853",
-            "type": "textfield",
+            "id": "ExtBox1-ext-gen17048",
+            "type": "container",
             "reference": {
                 "name": "items",
                 "type": "array"
             },
             "codeClass": null,
             "userConfig": {
-                "label": "Start a (game) game",
-                "labelWidth": "100%",
-                "designer|userClassName": "MyTextField13"
+                "cls": [
+                    "title"
+                ],
+                "designer|userClassName": "MyContainer20"
             },
             "customConfigs": [],
-            "expanded": true
+            "expanded": true,
+            "cn": [
+                {
+                    "id": "ExtBox1-ext-gen20853",
+                    "type": "textfield",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "cls": null,
+                        "label": "Start a (game) game",
+                        "labelWidth": "100%",
+                        "designer|userClassName": "MyTextField13"
+                    },
+                    "customConfigs": [],
+                    "expanded": true
+                }
+            ]
         },
         {
-            "id": "ExtBox1-ext-gen20857",
-            "type": "map",
+            "id": "ExtBox1-ext-gen16542",
+            "type": "container",
             "reference": {
                 "name": "items",
                 "type": "array"
             },
             "codeClass": null,
             "userConfig": {
-                "height": 303,
-                "width": 314,
-                "designer|userClassName": "MyMap2"
+                "cls": [
+                    "map"
+                ],
+                "designer|userClassName": "MyContainer19"
             },
             "customConfigs": [],
-            "expanded": true
+            "expanded": true,
+            "cn": [
+                {
+                    "id": "ExtBox1-ext-gen20857",
+                    "type": "map",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "height": 303,
+                        "width": 314,
+                        "designer|userClassName": "MyMap2"
+                    },
+                    "customConfigs": [],
+                    "expanded": true
+                }
+            ]
         },
         {
             "id": "ExtBox1-ext-gen20861",
@@ -55,6 +94,9 @@
             },
             "codeClass": null,
             "userConfig": {
+                "cls": [
+                    "submitForm"
+                ],
                 "title": "(location)",
                 "designer|userClassName": "MyFieldSet"
             },

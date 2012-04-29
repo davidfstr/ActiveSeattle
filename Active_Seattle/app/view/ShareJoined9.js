@@ -17,6 +17,9 @@ Ext.define('MyApp.view.ShareJoined9', {
     extend: 'Ext.Panel',
 
     config: {
+        cls: [
+            'title'
+        ],
         items: [
             {
                 xtype: 'textfield',

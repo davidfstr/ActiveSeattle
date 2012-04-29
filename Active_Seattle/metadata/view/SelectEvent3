@@ -24,6 +24,9 @@
             },
             "codeClass": null,
             "userConfig": {
+                "cls": [
+                    "title"
+                ],
                 "designer|userClassName": "MyContainer2"
             },
             "customConfigs": [],
@@ -56,6 +59,9 @@
             },
             "codeClass": null,
             "userConfig": {
+                "cls": [
+                    "map"
+                ],
                 "designer|userClassName": "MyContainer3"
             },
             "customConfigs": [],

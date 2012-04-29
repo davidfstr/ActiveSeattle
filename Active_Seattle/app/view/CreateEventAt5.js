@@ -19,17 +19,36 @@ Ext.define('MyApp.view.CreateEventAt5', {
     config: {
         items: [
             {
-                xtype: 'textfield',
-                label: 'Start a (game) game',
-                labelWidth: '100%'
+                xtype: 'container',
+                cls: [
+                    'title'
+                ],
+                items: [
+                    {
+                        xtype: 'textfield',
+                        label: 'Start a (game) game',
+                        labelWidth: '100%'
+                    }
+                ]
             },
             {
-                xtype: 'map',
-                height: 303,
-                width: 314
+                xtype: 'container',
+                cls: [
+                    'map'
+                ],
+                items: [
+                    {
+                        xtype: 'map',
+                        height: 303,
+                        width: 314
+                    }
+                ]
             },
             {
                 xtype: 'fieldset',
+                cls: [
+                    'submitForm'
+                ],
                 title: '(location)',
                 items: [
                     {

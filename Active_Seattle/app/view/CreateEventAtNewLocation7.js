@@ -17,6 +17,9 @@ Ext.define('MyApp.view.CreateEventAtNewLocation7', {
     extend: 'Ext.Panel',
 
     config: {
+        cls: [
+            'title'
+        ],
         items: [
             {
                 xtype: 'textfield',
@@ -24,11 +27,22 @@ Ext.define('MyApp.view.CreateEventAtNewLocation7', {
                 labelWidth: '100%'
             },
             {
-                xtype: 'map',
-                height: 200
+                xtype: 'container',
+                cls: [
+                    'map'
+                ],
+                items: [
+                    {
+                        xtype: 'map',
+                        height: 200
+                    }
+                ]
             },
             {
                 xtype: 'fieldset',
+                cls: [
+                    'submitForm'
+                ],
                 title: '(location)',
                 items: [
                     {

@@ -21,6 +21,9 @@ Ext.define('MyApp.view.SelectEvent3', {
         items: [
             {
                 xtype: 'container',
+                cls: [
+                    'title'
+                ],
                 items: [
                     {
                         xtype: 'textfield',
@@ -31,6 +34,9 @@ Ext.define('MyApp.view.SelectEvent3', {
             },
             {
                 xtype: 'container',
+                cls: [
+                    'map'
+                ],
                 items: [
                     {
                         xtype: 'map',

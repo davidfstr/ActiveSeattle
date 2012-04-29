@@ -53,6 +53,9 @@ Ext.define('MyApp.view.SplashPage', {
             },
             {
                 xtype: 'container',
+                cls: [
+                    'map'
+                ],
                 height: 300,
                 items: [
                     {
