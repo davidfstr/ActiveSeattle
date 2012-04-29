@@ -14,7 +14,7 @@
     "customConfigs": [],
     "designerId": "e6cbcd5d-9e94-413a-8f8c-b66f9e32a833",
     "$viewOrder": 1,
-    "expanded": false,
+    "expanded": true,
     "cn": [
         {
             "id": "ExtBox1-ext-gen14581",
@@ -118,7 +118,7 @@
                         "centered": true,
                         "id": "start",
                         "itemId": "foobutton",
-                        "ui": "confirm-round",
+                        "ui": "action-round",
                         "width": 280,
                         "text": "Start your own event",
                         "designer|userClassName": "MyButton6"
