@@ -40,7 +40,6 @@
                     },
                     "codeClass": null,
                     "userConfig": {
-                        "cls": null,
                         "label": "Start a (game) game",
                         "labelWidth": "100%",
                         "designer|userClassName": "MyTextField13"

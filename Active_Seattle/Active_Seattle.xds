@@ -5,7 +5,7 @@
         "directAPI": "",
         "spacesToIndent": 4,
         "codeGenFormat": "Class",
-        "exportPath": "C:/Users/Villars/ActiveSeattle/xampp",
+        "exportPath": "C:/Users/Villars/Desktop",
         "extPath": "http://extjs.cachefly.net/touch/sencha-touch-2.0.0/",
         "senchaIoKey": "",
         "senchaIoPath": "http://extjs.cachefly.net/designer/IO/",
@@ -118,7 +118,7 @@
     "expandedState": {
         "data": true,
         "model": true,
-        "component": false,
+        "component": true,
         "controller": true,
         "resource": true
     }

@@ -14,7 +14,7 @@
     "customConfigs": [],
     "designerId": "e6cbcd5d-9e94-413a-8f8c-b66f9e32a833",
     "$viewOrder": 1,
-    "expanded": false,
+    "expanded": true,
     "cn": [
         {
             "id": "ExtBox1-ext-gen14581",
@@ -43,7 +43,7 @@
                     "codeClass": null,
                     "userConfig": {
                         "itemId": "mytextfield",
-                        "label": "alala",
+                        "label": "Join a Basketball Game",
                         "labelWidth": "100%",
                         "name": null,
                         "readOnly": null,
@@ -90,19 +90,41 @@
             ]
         },
         {
-            "id": "ExtBox1-ext-gen14597",
-            "type": "button",
+            "id": "ExtBox1-ext-gen5392",
+            "type": "container",
             "reference": {
                 "name": "items",
                 "type": "array"
             },
             "codeClass": null,
             "userConfig": {
-                "text": "Start your own event",
-                "designer|userClassName": "MyButton6"
+                "height": 37,
+                "width": 316,
+                "designer|userClassName": "MyContainer21"
             },
             "customConfigs": [],
-            "expanded": true
+            "expanded": true,
+            "cn": [
+                {
+                    "id": "ExtBox1-ext-gen14597",
+                    "type": "button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "centered": true,
+                        "id": "start",
+                        "ui": "confirm-round",
+                        "width": 280,
+                        "text": "Start your own event",
+                        "designer|userClassName": "MyButton6"
+                    },
+                    "customConfigs": [],
+                    "expanded": true
+                }
+            ]
         },
         {
             "id": "ExtBox1-ext-gen14601",
@@ -113,6 +135,8 @@
             },
             "codeClass": null,
             "userConfig": {
+                "height": 137,
+                "width": 319,
                 "designer|userClassName": "MyContainer14"
             },
             "customConfigs": [],
@@ -128,17 +152,17 @@
                     "codeClass": null,
                     "userConfig": {
                         "docked": null,
-                        "height": 41,
+                        "height": 49,
                         "ui": "",
-                        "width": 316,
+                        "width": 317,
                         "designer|userClassName": "MyContainer4"
                     },
                     "customConfigs": [],
                     "expanded": true,
                     "cn": [
                         {
-                            "id": "ExtBox1-ext-gen14609",
-                            "type": "button",
+                            "id": "ExtBox1-ext-gen10295",
+                            "type": "textfield",
                             "reference": {
                                 "name": "items",
                                 "type": "array"
@@ -146,9 +170,12 @@
                             "codeClass": null,
                             "userConfig": {
                                 "centered": true,
-                                "width": 270,
-                                "text": "(location), (time), (#people)",
-                                "designer|userClassName": "MyButton7"
+                                "height": 41,
+                                "id": "item1",
+                                "width": 250,
+                                "label": "AA Court 6pm, 6 people",
+                                "labelWidth": "100%",
+                                "designer|userClassName": "MyTextField15"
                             },
                             "customConfigs": [],
                             "expanded": true
@@ -156,7 +183,7 @@
                     ]
                 },
                 {
-                    "id": "ExtBox1-ext-gen14613",
+                    "id": "ExtBox1-ext-gen12868",
                     "type": "container",
                     "reference": {
                         "name": "items",
@@ -164,16 +191,18 @@
                     },
                     "codeClass": null,
                     "userConfig": {
-                        "height": 34,
-                        "width": 319,
+                        "docked": null,
+                        "height": 49,
+                        "ui": "",
+                        "width": 317,
                         "designer|userClassName": "MyContainer4"
                     },
                     "customConfigs": [],
                     "expanded": true,
                     "cn": [
                         {
-                            "id": "ExtBox1-ext-gen14617",
-                            "type": "button",
+                            "id": "ExtBox1-ext-gen12872",
+                            "type": "textfield",
                             "reference": {
                                 "name": "items",
                                 "type": "array"
@@ -181,10 +210,52 @@
                             "codeClass": null,
                             "userConfig": {
                                 "centered": true,
-                                "height": 36,
-                                "width": 270,
-                                "text": "(location), (time), (#people)",
-                                "designer|userClassName": "MyButton7"
+                                "height": 41,
+                                "id": "item2",
+                                "width": 250,
+                                "label": "BB Court 6:15pm, 10 people",
+                                "labelWidth": "100%",
+                                "designer|userClassName": "MyTextField15"
+                            },
+                            "customConfigs": [],
+                            "expanded": true
+                        }
+                    ]
+                },
+                {
+                    "id": "ExtBox1-ext-gen12704",
+                    "type": "container",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "docked": null,
+                        "height": 49,
+                        "ui": "",
+                        "width": 317,
+                        "designer|userClassName": "MyContainer4"
+                    },
+                    "customConfigs": [],
+                    "expanded": true,
+                    "cn": [
+                        {
+                            "id": "ExtBox1-ext-gen12708",
+                            "type": "textfield",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "centered": true,
+                                "height": 41,
+                                "id": "item3",
+                                "width": 250,
+                                "label": "CC Court 6:45pm, 2 people",
+                                "labelWidth": "100%",
+                                "designer|userClassName": "MyTextField15"
                             },
                             "customConfigs": [],
                             "expanded": true
