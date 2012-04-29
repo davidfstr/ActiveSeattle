@@ -6,7 +6,9 @@
         "type": "array"
     },
     "codeClass": null,
-    "userConfig": {},
+    "userConfig": {
+        "url": "app.css"
+    },
     "customConfigs": [],
     "designerId": "6ab13d42-4ebe-4f7f-bfef-987048ce74a9",
     "$viewOrder": 0,

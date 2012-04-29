@@ -113,6 +113,12 @@
                 "metadata/resource/css"
             ],
             "className": "css"
+        },
+        "16e9e6b6-8b45-4842-b456-203e25507808": {
+            "paths": [
+                "metadata/resource/js"
+            ],
+            "className": "js"
         }
     },
     "expandedState": {

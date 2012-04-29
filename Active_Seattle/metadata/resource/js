@@ -1,0 +1,17 @@
+{
+    "id": "ExtBox1-ext-gen96917",
+    "type": "jsresource",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "url": "http://gmaps-utility-library-dev.googlecode.com/svn/tags/mapiconmaker/1.1/src/mapiconmaker_packed.js",
+        "id": "MapIconMakerJS"
+    },
+    "customConfigs": [],
+    "designerId": "16e9e6b6-8b45-4842-b456-203e25507808",
+    "$viewOrder": 1,
+    "expanded": true
+}

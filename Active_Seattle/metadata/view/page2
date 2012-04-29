@@ -173,7 +173,7 @@
                                 "height": 41,
                                 "id": "item1",
                                 "width": 250,
-                                "label": "AA Court 6pm, 6 people",
+                                "label": "Pratt Park - 6pm, 6 people",
                                 "labelWidth": "100%",
                                 "designer|userClassName": "MyTextField15"
                             },
@@ -212,8 +212,9 @@
                                 "centered": true,
                                 "height": 41,
                                 "id": "item2",
+                                "itemId": "textelement2",
                                 "width": 250,
-                                "label": "BB Court 6:15pm, 10 people",
+                                "label": "Pendleton-Mil.. 6:15pm, 10 people",
                                 "labelWidth": "100%",
                                 "designer|userClassName": "MyTextField15"
                             },
@@ -253,7 +254,7 @@
                                 "height": 41,
                                 "id": "item3",
                                 "width": 250,
-                                "label": "CC Court 6:45pm, 2 people",
+                                "label": "Denny Park -  6:45pm, 2 people",
                                 "labelWidth": "100%",
                                 "designer|userClassName": "MyTextField15"
                             },
