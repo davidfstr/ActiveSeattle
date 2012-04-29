@@ -1,0 +1,107 @@
+{
+    "id": "ExtBox1-ext-gen2831",
+    "type": "panel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|initialView": true,
+        "id": "one",
+        "designer|userClassName": "First_page",
+        "designer|userAlias": ""
+    },
+    "customConfigs": [],
+    "designerId": "50700456-313b-421a-835a-0bdd3754806c",
+    "$viewOrder": 0,
+    "expanded": true,
+    "cn": [
+        {
+            "id": "ExtBox1-ext-gen4009",
+            "type": "titlebar",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "docked": "top",
+                "title": "Lets Play Now",
+                "designer|userClassName": "MyTitleBar"
+            },
+            "customConfigs": [],
+            "expanded": true
+        },
+        {
+            "id": "ExtBox1-ext-gen33555",
+            "type": "container",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyContainer1"
+            },
+            "customConfigs": [],
+            "expanded": true,
+            "cn": [
+                {
+                    "id": "ExtBox1-ext-gen18656",
+                    "type": "selectfield",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "label": "",
+                        "labelWidth": null,
+                        "displayField": null,
+                        "hiddenName": null,
+                        "options": "[['All Games', 'All Games'], ['Tennis','Tennis'], ['Soccer','Soccer'], ['Basketball','Basketball'], ['Football','Football']]",
+                        "store": null,
+                        "usePicker": null,
+                        "designer|userClassName": "MySelectField1"
+                    },
+                    "customConfigs": [],
+                    "expanded": true
+                }
+            ]
+        },
+        {
+            "id": "ExtBox1-ext-gen20835",
+            "type": "container",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "height": 300,
+                "designer|userClassName": "MyContainer"
+            },
+            "customConfigs": [],
+            "expanded": true,
+            "cn": [
+                {
+                    "id": "ExtBox1-ext-gen29888",
+                    "type": "map",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "height": 356,
+                        "width": 313,
+                        "designer|userClassName": "MyMap"
+                    },
+                    "customConfigs": [],
+                    "expanded": true
+                }
+            ]
+        }
+    ]
+}
