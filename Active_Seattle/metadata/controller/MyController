@@ -1,0 +1,16 @@
+{
+    "id": "ExtBox1-ext-gen27569",
+    "type": "controller",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "MyController"
+    },
+    "customConfigs": [],
+    "designerId": "3bb10e2e-670f-42fa-ad9e-7c8c7371d7a7",
+    "$viewOrder": 0,
+    "expanded": true
+}

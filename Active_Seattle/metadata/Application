@@ -1,0 +1,24 @@
+{
+    "id": "ExtBox1-ext-gen11747",
+    "type": "application",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "views": [
+            "First_page",
+            "Second_page"
+        ],
+        "name": "MyApp",
+        "controllers": [
+            "MyController"
+        ]
+    },
+    "customConfigs": [],
+    "designerId": "application",
+    "$viewOrder": 0,
+    "iconCls": "icon-application",
+    "expanded": true
+}

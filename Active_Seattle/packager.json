@@ -1,0 +1,15 @@
+{
+    "applicationName": "My Application",
+    "applicationId": "com.mycompany.myAppID",
+    "versionString": "1.0",
+    "iconName": "",
+    "inputPath": "C:\\Users\\Villars\\ActiveSeattle\\Active_Seattle",
+    "outputPath": "C:\\Users\\Villars\\ActiveSeattle\\build",
+    "configuration": "Debug",
+    "platform": "iOSSimulator",
+    "deviceType": "Universal",
+    "certificatePath": "/path/to/certificate.file",
+    "certificateAlias": "",
+    "sdkPath": "/path/to/android-sdk",
+    "androidAPILevel": ""
+}
