@@ -30,11 +30,11 @@
         },
         "54e30c90-dfc9-4f52-8c72-b69c53cb6050": {
             "paths": [
-                "metadata/view/Second_page",
-                "app/view/override/Second_page.js",
-                "app/view/Second_page.js"
+                "metadata/view/page2",
+                "app/view/override/page2.js",
+                "app/view/page2.js"
             ],
-            "className": "Second_page"
+            "className": "page2"
         },
         "3bb10e2e-670f-42fa-ad9e-7c8c7371d7a7": {
             "paths": [
@@ -43,6 +43,14 @@
                 "app/controller/MyController.js"
             ],
             "className": "MyController"
+        },
+        "4496ba43-5c06-423a-8ba2-66b1de80a209": {
+            "paths": [
+                "metadata/view/MyNavigationView",
+                "app/view/override/MyNavigationView.js",
+                "app/view/MyNavigationView.js"
+            ],
+            "className": "MyNavigationView"
         }
     },
     "expandedState": {

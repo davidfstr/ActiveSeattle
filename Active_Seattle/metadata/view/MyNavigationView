@@ -1,0 +1,51 @@
+{
+    "id": "ExtBox1-ext-gen32973",
+    "type": "navigationview",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|initialView": true,
+        "useTitleForBackButtonText": true,
+        "designer|userClassName": "MyNavigationView"
+    },
+    "customConfigs": [],
+    "designerId": "4496ba43-5c06-423a-8ba2-66b1de80a209",
+    "$viewOrder": 2,
+    "expanded": true,
+    "cn": [
+        {
+            "id": "ExtBox1-ext-gen33244",
+            "type": "linkedinstance",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {},
+            "customConfigs": [],
+            "iconCls": "icon-linkedinstance",
+            "expanded": true,
+            "masterInstanceId": "ExtBox1-ext-gen2831"
+        },
+        {
+            "id": "ExtBox1-ext-gen38480",
+            "type": "navigationbar",
+            "reference": {
+                "name": "navigationBar",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "ui": "light",
+                "designer|userClassName": "MyNavigationBar",
+                "title": "Foo Title"
+            },
+            "customConfigs": [],
+            "iconCls": "icon-navbar",
+            "expanded": true
+        }
+    ]
+}

@@ -9,7 +9,8 @@
     "userConfig": {
         "views": [
             "First_page",
-            "Second_page"
+            "page2",
+            "MyNavigationView"
         ],
         "name": "MyApp",
         "controllers": [

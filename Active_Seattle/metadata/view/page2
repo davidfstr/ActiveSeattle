@@ -8,12 +8,13 @@
     "codeClass": null,
     "userConfig": {
         "id": "two",
-        "designer|userClassName": "Second_page"
+        "designer|userClassName": "page2",
+        "designer|userAlias": "page2"
     },
     "customConfigs": [],
     "designerId": "54e30c90-dfc9-4f52-8c72-b69c53cb6050",
     "$viewOrder": 1,
-    "expanded": false,
+    "expanded": true,
     "cn": [
         {
             "id": "ExtBox1-ext-gen7648",
@@ -29,7 +30,7 @@
                 "designer|userClassName": "MyTitleBar"
             },
             "customConfigs": [],
-            "expanded": false,
+            "expanded": true,
             "cn": [
                 {
                     "id": "ExtBox1-ext-gen7652",
@@ -46,7 +47,7 @@
                         "designer|userClassName": "MyButton"
                     },
                     "customConfigs": [],
-                    "expanded": false,
+                    "expanded": true,
                     "cn": [
                         {
                             "id": "ExtBox1-ext-gen7658",

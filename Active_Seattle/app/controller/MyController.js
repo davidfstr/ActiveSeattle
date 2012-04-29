@@ -16,5 +16,19 @@
 Ext.define('MyApp.controller.MyController', {
     extend: 'Ext.app.Controller',
     config: {
+        control: {
+            "selectfield": {
+                change: 'onFirstPageSelectfieldChange'
+            }
+        }
+    },
+
+    onFirstPageSelectfieldChange: function(selectfield, newValue, oldValue, options) {
+
+        selectfield.up('navigationview').push({
+            xtype: 'page2',
+            title: 'Page 2'
+        });
     }
+
 });

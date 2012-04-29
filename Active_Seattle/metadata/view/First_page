@@ -7,10 +7,9 @@
     },
     "codeClass": null,
     "userConfig": {
-        "designer|initialView": true,
         "id": "one",
         "designer|userClassName": "First_page",
-        "designer|userAlias": ""
+        "designer|userAlias": "first_page"
     },
     "customConfigs": [],
     "designerId": "50700456-313b-421a-835a-0bdd3754806c",

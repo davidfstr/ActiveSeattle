@@ -15,6 +15,7 @@
 
 Ext.define('MyApp.view.First_page', {
     extend: 'Ext.Panel',
+    alias: 'widget.first_page',
 
     config: {
         id: 'one',
