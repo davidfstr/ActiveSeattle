@@ -46,11 +46,11 @@
         },
         "63e5db62-e31f-42e4-a491-e77a5d9e43cc": {
             "paths": [
-                "metadata/view/ShareJoined9",
-                "app/view/override/ShareJoined9.js",
-                "app/view/ShareJoined9.js"
+                "metadata/view/page5",
+                "app/view/override/page5.js",
+                "app/view/page5.js"
             ],
-            "className": "ShareJoined9"
+            "className": "page5"
         },
         "b3ac89d5-28b5-4692-8d0c-cbfdc80cbf20": {
             "paths": [
@@ -94,11 +94,11 @@
         },
         "ab2c01f2-b898-4d41-a810-57d8d7494482": {
             "paths": [
-                "metadata/view/JoinSelectedGame8",
-                "app/view/override/JoinSelectedGame8.js",
-                "app/view/JoinSelectedGame8.js"
+                "metadata/view/page4",
+                "app/view/override/page4.js",
+                "app/view/page4.js"
             ],
-            "className": "JoinSelectedGame8"
+            "className": "page4"
         },
         "32886467-8145-4a37-be3f-c976b75e8274": {
             "paths": [

@@ -14,7 +14,7 @@
     "customConfigs": [],
     "designerId": "e6cbcd5d-9e94-413a-8f8c-b66f9e32a833",
     "$viewOrder": 1,
-    "expanded": true,
+    "expanded": false,
     "cn": [
         {
             "id": "ExtBox1-ext-gen14581",
@@ -163,21 +163,16 @@
                     "expanded": true,
                     "cn": [
                         {
-                            "id": "ExtBox1-ext-gen10295",
-                            "type": "textfield",
+                            "id": "ExtBox1-ext-gen5288",
+                            "type": "button",
                             "reference": {
                                 "name": "items",
                                 "type": "array"
                             },
                             "codeClass": null,
                             "userConfig": {
-                                "centered": true,
-                                "height": 41,
-                                "id": "item1",
-                                "width": 250,
-                                "label": "Pratt Park - 6pm, 6 people",
-                                "labelWidth": "100%",
-                                "designer|userClassName": "MyTextField15"
+                                "text": "Pratt Park - 6pm, 6 people",
+                                "designer|userClassName": "MyButton15"
                             },
                             "customConfigs": [],
                             "expanded": true
@@ -203,22 +198,17 @@
                     "expanded": true,
                     "cn": [
                         {
-                            "id": "ExtBox1-ext-gen12872",
-                            "type": "textfield",
+                            "id": "ExtBox1-ext-gen5971",
+                            "type": "button",
                             "reference": {
                                 "name": "items",
                                 "type": "array"
                             },
                             "codeClass": null,
                             "userConfig": {
-                                "centered": true,
-                                "height": 41,
-                                "id": "item2",
-                                "itemId": "textelement2",
-                                "width": 250,
-                                "label": "Pendleton Mil.. 6:15pm, 10 people",
-                                "labelWidth": "100%",
-                                "designer|userClassName": "MyTextField15"
+                                "itemId": "button2",
+                                "text": "Pendleton Mil.. 6:15pm, 10 people",
+                                "designer|userClassName": "MyButton16"
                             },
                             "customConfigs": [],
                             "expanded": true
@@ -244,21 +234,16 @@
                     "expanded": true,
                     "cn": [
                         {
-                            "id": "ExtBox1-ext-gen12708",
-                            "type": "textfield",
+                            "id": "ExtBox1-ext-gen6340",
+                            "type": "button",
                             "reference": {
                                 "name": "items",
                                 "type": "array"
                             },
                             "codeClass": null,
                             "userConfig": {
-                                "centered": true,
-                                "height": 41,
-                                "id": "item3",
-                                "width": 250,
-                                "label": "Denny Park -  6:45pm, 2 people",
-                                "labelWidth": "100%",
-                                "designer|userClassName": "MyTextField15"
+                                "text": "Denny Park -  6:45pm, 2 people",
+                                "designer|userClassName": "MyButton17"
                             },
                             "customConfigs": [],
                             "expanded": true

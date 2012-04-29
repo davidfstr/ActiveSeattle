@@ -10,13 +10,13 @@
         "views": [
             "SplashPage",
             "MyNavigationView",
-            "ShareJoined9",
+            "page5",
             "ShareCreated6",
             "SelectEvent3",
             "ChooseLocation4",
             "page2",
             "page3",
-            "JoinSelectedGame8",
+            "page4",
             "CreateEventAt5"
         ],
         "name": "MyApp",

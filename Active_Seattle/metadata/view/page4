@@ -7,7 +7,9 @@
     },
     "codeClass": null,
     "userConfig": {
-        "designer|userClassName": "JoinSelectedGame8"
+        "itemId": "page4",
+        "designer|userClassName": "page4",
+        "designer|userAlias": "page4"
     },
     "customConfigs": [],
     "designerId": "ab2c01f2-b898-4d41-a810-57d8d7494482",
@@ -26,7 +28,7 @@
                 "cls": [
                     "title"
                 ],
-                "label": "Start a (game) game",
+                "label": "Pendleton Miller Playfield",
                 "labelWidth": "100%",
                 "designer|userClassName": "MyTextField13"
             },
@@ -60,6 +62,7 @@
                     "codeClass": null,
                     "userConfig": {
                         "height": 336,
+                        "itemId": "map",
                         "width": 320,
                         "designer|userClassName": "MyMap2"
                     },
@@ -80,7 +83,7 @@
                 "cls": [
                     "submitForm"
                 ],
-                "title": "(location)",
+                "title": "6:15 PM - 10 people",
                 "designer|userClassName": "MyFieldSet"
             },
             "customConfigs": [],
@@ -95,6 +98,8 @@
                     },
                     "codeClass": null,
                     "userConfig": {
+                        "id": "joinbutton",
+                        "itemId": "joinbutton",
                         "text": "Join this game",
                         "designer|userClassName": "MyButton6"
                     },

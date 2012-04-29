@@ -10,12 +10,15 @@
         "cls": [
             "title"
         ],
-        "designer|userClassName": "ShareJoined9"
+        "id": "page5",
+        "itemId": "page5",
+        "designer|userClassName": "page5",
+        "designer|userAlias": "page5"
     },
     "customConfigs": [],
     "designerId": "63e5db62-e31f-42e4-a491-e77a5d9e43cc",
     "$viewOrder": 8,
-    "expanded": false,
+    "expanded": true,
     "cn": [
         {
             "id": "ExtBox1-ext-gen4800",
@@ -83,7 +86,7 @@
                         "height": 39,
                         "padding": 0,
                         "width": 208,
-                        "label": " at (area) @ (time)",
+                        "label": " at Pendleton... @ 6:15pm",
                         "labelWidth": "100%",
                         "readOnly": true,
                         "designer|userClassName": "MyTextField1"
