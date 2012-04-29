@@ -1,0 +1,17 @@
+{
+    "id": "ExtBox1-ext-gen6832",
+    "type": "store",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "storeId": "Sports",
+        "designer|userClassName": "MyStore"
+    },
+    "customConfigs": [],
+    "designerId": "f9a7a7a5-0544-497d-aad5-7e62fb01dae3",
+    "$viewOrder": 0,
+    "expanded": true
+}
