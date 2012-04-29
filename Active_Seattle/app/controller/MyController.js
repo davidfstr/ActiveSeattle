@@ -34,9 +34,65 @@ Ext.define('MyApp.controller.MyController', {
         var page2 = mainNav.child('page2');
 
         var textfield = page2.down('#mytextfield');
-        var str = 'Join a ' + newValue.data.text + ' game';
+        var sport = newValue.data.text;
+        var str = 'Join a ' + sport + ' game';
         textfield.setLabel(str);
 
+
+        var map = page2.down('map');
+        if (map === null)
+        alert('map');
+
+        var googleMap = map.getMap();
+
+        // Center it in Seattle, baby.
+        var seattleLatLng = new google.maps.LatLng(47.600029,-122.319803);
+        googleMap.setCenter(seattleLatLng);
+
+
+        function each(a, fn, opt_scope) {
+            for (var i=0, j=a.length; i < j; ++i) {
+                fn.call(opt_scope || window, a[i], i, a);
+            }
+        }
+
+        //var basketballCourtsURL = "https://data.seattle.gov/resource/82su-5fxf.json?$where=city_feature='Basketball%20Courts'%20OR%20city_feature='Tennis%20Courts'&$select=city_feature,common_name,latitude,longitude";
+        var basketballCourtsURL = "MyNeighborhoodMapDump.json?$where=city_feature='Basketball%20Courts'%20OR%20city_feature='Tennis%20Courts'&$select=city_feature,common_name,latitude,longitude";
+
+
+        // for now, special case basketball and tennis...
+        var matchString = sport === "Tennis" ? "Tennis Courts" : "Basketball Courts";
+
+
+        Ext.Ajax.request({
+            url: basketballCourtsURL,
+            method: 'GET',
+            success: function(result, request){
+                var obj = Ext.decode(result.responseText);
+                each(obj.data, function(f) {
+                    var category = f[8];
+                    if (category === matchString)
+                    {
+
+                        var commonName = f[9];
+
+                        var long = f[12];
+                        var lat = f[13];
+
+
+                        new google.maps.Marker({
+                            map: googleMap,
+                            position: new google.maps.LatLng(lat, long),
+                            title: commonName
+                        });
+                    }
+                });
+            },
+            failure: function (result, request)
+            {
+                alert('fail');
+            }
+        });
 
     }
 
