@@ -1,5 +1,8 @@
-# Sencha Architect
-app.js
-app.html
-app
-xampp
+# OS X
+.DS_Store
+
+# Databases
+*.kvdb
+
+# Local Settings
+settings.local.php
